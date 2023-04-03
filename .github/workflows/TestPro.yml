@@ -1,0 +1,23 @@
+name: OZProject Java with Maven
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  OZProject:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v3
+      with:
+        java-version: 1.8
+        distribution: 'temurin'
+        cache: maven
+    - name: Build with Maven
+      run: mvn -Dbrowser=chrome -Denvironment=dev clean test
+
+

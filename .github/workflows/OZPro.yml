@@ -5,7 +5,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  OzProject:
+  OzPro:
 
     runs-on: windows-latest
 

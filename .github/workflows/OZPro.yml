@@ -19,7 +19,7 @@ jobs:
         cache: maven
     - name: Install Allure
       run: |
-        wget -O allure-2.14.0.tgz https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.14.0/allure-commandline-2.14.0.tgz
+        Invoke-WebRequest -Uri https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.14.0/allure-commandline-2.14.0.tgz
         mkdir allure
         tar -zxf allure-2.14.0.tgz -C allure --strip-components 1
         rm allure-2.14.0.tgz

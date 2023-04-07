@@ -19,14 +19,13 @@ jobs:
         cache: maven
     - name: Install Allure
       run: |
-       Invoke-WebRequest -Uri https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/allure-commandline-2.10.0.zip 
-        mkdir allure
-        Expand-Archive allure-commandline-2.10.0.zip -DestinationPath allure
-        Remove-Item allure-commandline-2.10.0.zip
+        Invoke-WebRequest -Uri https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/allure-commandline-2.10.0.zip -OutFile C:\allure-commandline-2.10.0.zip
+        PowerShell -Command "Expand-Archive -Path C:\allure-commandline-2.10.0.zip -DestinationPath C:\allure"
+        Remove-Item C:\allure-commandline-2.10.0.zip
     - name: Run tests and generate Allure report
       run: |
         mvn -Dbrowser=chrome -Denvironment=dev clean test
-        allure/bin/allure generate --clean allure-results --report-dir allure-report
+        C:\allure\bin\allure generate --clean allure-results --report-dir allure-report
     - name: Upload Allure report
       uses: actions/upload-artifact@v2
       with:

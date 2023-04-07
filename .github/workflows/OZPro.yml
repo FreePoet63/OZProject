@@ -26,7 +26,7 @@ jobs:
     - name: Run tests and generate Allure report
       run: |
         mvn -Dbrowser=chrome -Denvironment=dev clean test
-        & $env:ALLURE_HOME\bin\allure generate --clean target/allure-results --report-dir allure-report
+        & "$PWD:ALLURE_HOME\bin\allure.bat" generate --clean target/allure-results --report-dir allure-report
     - name: Upload Allure report
       uses: actions/upload-artifact@v2
       with:

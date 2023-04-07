@@ -19,10 +19,10 @@ jobs:
         cache: maven
     - name: Install Allure
       run: |
-        Invoke-WebRequest -Uri https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/allure-commandline-2.10.0.tgz
+        Invoke-WebRequest -Uri https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/allure-commandline-2.10.0.exe
         mkdir allure
-        tar -zxf allure-2.10.0.tgz -C allure --strip-components 1
-        rm allure-2.10.0.tgz
+        tar -zxf allure-2.10.0.exe -C allure --strip-components 1
+        rm allure-2.10.0.exe
     - name: Run tests and generate Allure report
       run: |
         mvn -Dbrowser=chrome -Denvironment=dev clean test

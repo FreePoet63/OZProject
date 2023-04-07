@@ -22,10 +22,12 @@ jobs:
         Invoke-WebRequest -Uri https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/allure-commandline-2.10.0.zip -OutFile C:\allure-commandline-2.10.0.zip
         PowerShell -Command "Expand-Archive -Path C:\allure-commandline-2.10.0.zip -DestinationPath C:\"
         Remove-Item C:\allure-commandline-2.10.0.zip
+      env:
+        ALLURE_HOME: C:\allure-2.10.0
     - name: Run tests and generate Allure report
       run: |
         mvn -Dbrowser=chrome -Denvironment=dev clean test
-        C:\allure-2.10.0\bin generate --clean target/allure-results --report-dir allure-report
+        & ${env:ALLURE_HOME}\bin\allure generate --clean target/allure-results --report-dir allure-report
     - name: Upload Allure report
       uses: actions/upload-artifact@v2
       with:

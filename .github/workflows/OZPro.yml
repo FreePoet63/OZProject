@@ -24,7 +24,7 @@ jobs:
         Remove-Item C:\allure-commandline-2.10.0.zip
     - name: Run tests and generate Allure report
       run: |
-        mvn -Dbrowser=chrome -Denvironment=dev clean test -x
+        mvn -Dbrowser=chrome -Denvironment=dev clean test
         C:\allure\bin generate --clean allure-results --report-dir allure-report
     - name: Upload Allure report
       uses: actions/upload-artifact@v2

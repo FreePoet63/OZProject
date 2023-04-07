@@ -17,5 +17,18 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn -Dbrowser=chrome -Denvironment=dev clean test
+    - name: Install Allure
+      run: |
+        wget -O allure-2.14.0.tgz https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.14.0/allure-commandline-2.14.0.tgz
+        mkdir allure
+        tar -zxf allure-2.14.0.tgz -C allure --strip-components 1
+        rm allure-2.14.0.tgz
+    - name: Run tests and generate Allure report
+      run: |
+        mvn -Dbrowser=chrome -Denvironment=dev clean test
+        allure/bin/allure generate --clean allure-results --report-dir allure-report
+    - name: Upload Allure report
+      uses: actions/upload-artifact@v2
+      with:
+        name: allure-report
+        path: allure-report

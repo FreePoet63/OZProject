@@ -20,10 +20,10 @@ jobs:
     - name: Install Allure
       run: |
         Invoke-WebRequest -Uri https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/allure-commandline-2.10.0.zip -OutFile C:\allure-commandline-2.10.0.zip
-        PowerShell -Command "Expand-Archive -Path C:\allure-commandline-2.10.0.zip -DestinationPath C:\allure"
+        PowerShell -Command "Expand-Archive -Path C:\allure-commandline-2.10.0.zip -DestinationPath C:\"
         Remove-Item C:\allure-commandline-2.10.0.zip
-        env:
-        $env:ALLURE_HOME = 'C:\allure\allure-2.10.0'
+      env:
+        ALLURE_HOME: C:\allure-2.10.0
     - name: Run tests and generate Allure report
       run: |
         mvn -Dbrowser=chrome -Denvironment=dev clean test

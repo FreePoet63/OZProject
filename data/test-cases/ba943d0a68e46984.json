@@ -1,12 +1,12 @@
 {
-  "uid" : "2d924ae12b993ee3",
+  "uid" : "ba943d0a68e46984",
   "name" : "searchCityStore",
   "fullName" : "pagetest.OZStoreCityTest.searchCityStore",
   "historyId" : "fce164fe327eff9149a9ecbde48a3297",
   "time" : {
-    "start" : 1680961718452,
-    "stop" : 1680961723160,
-    "duration" : 4708
+    "start" : 1680962347077,
+    "stop" : 1680962352365,
+    "duration" : 5288
   },
   "description" : "Search for stores by city",
   "descriptionHtml" : "<p>Search for stores by city</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "startDriver",
     "time" : {
-      "start" : 1680961713249,
-      "stop" : 1680961718450,
-      "duration" : 5201
+      "start" : 1680962341136,
+      "stop" : 1680962347074,
+      "duration" : 5938
     },
     "description" : "",
     "status" : "passed",
@@ -36,17 +36,17 @@
     "steps" : [ {
       "name" : "searchCityStore",
       "time" : {
-        "start" : 1680961718452,
-        "stop" : 1680961723159,
-        "duration" : 4707
+        "start" : 1680962347077,
+        "stop" : 1680962352364,
+        "duration" : 5287
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961718453,
-          "stop" : 1680961721128,
-          "duration" : 2675
+          "start" : 1680962347077,
+          "stop" : 1680962350026,
+          "duration" : 2949
         },
         "status" : "passed",
         "steps" : [ ],
@@ -62,9 +62,9 @@
       }, {
         "name" : "searchCities",
         "time" : {
-          "start" : 1680961721128,
-          "stop" : 1680961723158,
-          "duration" : 2030
+          "start" : 1680962350026,
+          "stop" : 1680962352364,
+          "duration" : 2338
         },
         "status" : "passed",
         "steps" : [ ],
@@ -92,23 +92,23 @@
   "afterStages" : [ {
     "name" : "closeOz",
     "time" : {
-      "start" : 1680961723161,
-      "stop" : 1680961723957,
-      "duration" : 796
+      "start" : 1680962352366,
+      "stop" : 1680962353119,
+      "duration" : 753
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d69f8c75370b11ff",
+      "uid" : "2bd1769e9aa6eebe",
       "name" : "Page screenshot",
-      "source" : "d69f8c75370b11ff.png",
+      "source" : "2bd1769e9aa6eebe.png",
       "type" : "image/png",
       "size" : 289294
     }, {
-      "uid" : "bf476731ecfaf744",
+      "uid" : "23e66c5a96176d8d",
       "name" : "LogOZ",
-      "source" : "bf476731ecfaf744.txt",
+      "source" : "23e66c5a96176d8d.txt",
       "type" : "text/plain",
       "size" : 615
     } ],
@@ -138,10 +138,10 @@
     "value" : "pagetest.OZStoreCityTest"
   }, {
     "name" : "host",
-    "value" : "fv-az931-323"
+    "value" : "fv-az553-854"
   }, {
     "name" : "thread",
-    "value" : "6560@fv-az931-323.main(1)"
+    "value" : "4300@fv-az553-854.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -168,6 +168,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2d924ae12b993ee3.json",
+  "source" : "ba943d0a68e46984.json",
   "parameterValues" : [ ]
 }

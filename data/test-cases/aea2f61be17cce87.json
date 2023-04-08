@@ -1,24 +1,24 @@
 {
-  "uid" : "a4ffff751b7f35b",
-  "name" : "itemsCoffee",
-  "fullName" : "pagetest.OZPageBeveragesTest.itemsCoffee",
-  "historyId" : "c58bc72a25b40ba25ce95ac87d759f64",
+  "uid" : "aea2f61be17cce87",
+  "name" : "itemsSport",
+  "fullName" : "pagetest.OZStoreSportProductTest.itemsSport",
+  "historyId" : "c6711ad4cbe7a0e205ca32e8e764476a",
   "time" : {
-    "start" : 1680961682240,
-    "stop" : 1680961690044,
-    "duration" : 7804
+    "start" : 1680962358787,
+    "stop" : 1680962362914,
+    "duration" : 4127
   },
-  "description" : "Searching for coffee using filters",
-  "descriptionHtml" : "<p>Searching for coffee using filters</p>\n",
+  "description" : "Choosing balls in the OZ.BY store",
+  "descriptionHtml" : "<p>Choosing balls in the OZ.BY store</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "startDriver",
     "time" : {
-      "start" : 1680961605804,
-      "stop" : 1680961682149,
-      "duration" : 76345
+      "start" : 1680962353119,
+      "stop" : 1680962358781,
+      "duration" : 5662
     },
     "description" : "",
     "status" : "passed",
@@ -31,29 +31,29 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "Searching for coffee using filters",
+    "description" : "Choosing balls in the OZ.BY store",
     "status" : "passed",
     "steps" : [ {
-      "name" : "itemsCoffee",
+      "name" : "itemsSport",
       "time" : {
-        "start" : 1680961682271,
-        "stop" : 1680961690041,
-        "duration" : 7770
+        "start" : 1680962358787,
+        "stop" : 1680962362914,
+        "duration" : 4127
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "moveToElement",
         "time" : {
-          "start" : 1680961682334,
-          "stop" : 1680961683016,
-          "duration" : 682
+          "start" : 1680962358787,
+          "stop" : 1680962358950,
+          "duration" : 163
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "value",
-          "value" : "Продукты, деликатесы"
+          "value" : "Туризм, отдых, спорт"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -62,52 +62,52 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961683036,
-          "stop" : 1680961686558,
-          "duration" : 3522
+          "start" : 1680962358951,
+          "stop" : 1680962361152,
+          "duration" : 2201
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "strg",
-          "value" : "Кофе"
+          "value" : "Мячи"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
         "stepsCount" : 0,
         "hasContent" : true
       }, {
-        "name" : "elementCollection",
+        "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961686559,
-          "stop" : 1680961687574,
-          "duration" : 1015
+          "start" : 1680962361152,
+          "stop" : 1680962361231,
+          "duration" : 79
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
-          "name" : "i",
-          "value" : "2"
+          "name" : "strg",
+          "value" : "Футбольный"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
         "stepsCount" : 0,
         "hasContent" : true
       }, {
-        "name" : "elementFilterCollection",
+        "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961687574,
-          "stop" : 1680961687666,
-          "duration" : 92
+          "start" : 1680962361232,
+          "stop" : 1680962361279,
+          "duration" : 47
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
-          "name" : "i",
-          "value" : "0"
+          "name" : "strg",
+          "value" : "Машинная сшивка"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -116,9 +116,9 @@
       }, {
         "name" : "clickButton",
         "time" : {
-          "start" : 1680961687666,
-          "stop" : 1680961688933,
-          "duration" : 1267
+          "start" : 1680962361280,
+          "stop" : 1680962362396,
+          "duration" : 1116
         },
         "status" : "passed",
         "steps" : [ ],
@@ -134,16 +134,16 @@
       }, {
         "name" : "withAssertCollection",
         "time" : {
-          "start" : 1680961688934,
-          "stop" : 1680961690041,
-          "duration" : 1107
+          "start" : 1680962362396,
+          "stop" : 1680962362914,
+          "duration" : 518
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "string",
-          "value" : "Кофе молотый"
+          "value" : "Мяч футбольный"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -167,25 +167,25 @@
   "afterStages" : [ {
     "name" : "closeOz",
     "time" : {
-      "start" : 1680961690146,
-      "stop" : 1680961690991,
-      "duration" : 845
+      "start" : 1680962362916,
+      "stop" : 1680962363962,
+      "duration" : 1046
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "6a30e87d7fa2255a",
+      "uid" : "e793fb3da0ebd9ae",
       "name" : "Page screenshot",
-      "source" : "6a30e87d7fa2255a.png",
+      "source" : "e793fb3da0ebd9ae.png",
       "type" : "image/png",
-      "size" : 189275
+      "size" : 221767
     }, {
-      "uid" : "6c18ce09c64ebf99",
+      "uid" : "c8ae5305beb93dee",
       "name" : "LogOZ",
-      "source" : "6c18ce09c64ebf99.txt",
+      "source" : "c8ae5305beb93dee.txt",
       "type" : "text/plain",
-      "size" : 1255
+      "size" : 1241
     } ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
@@ -195,13 +195,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "pagetest.OZPageBeveragesTest"
+    "value" : "pagetest.OZStoreSportProductTest"
   }, {
     "name" : "testClass",
-    "value" : "pagetest.OZPageBeveragesTest"
+    "value" : "pagetest.OZStoreSportProductTest"
   }, {
     "name" : "testMethod",
-    "value" : "itemsCoffee"
+    "value" : "itemsSport"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -210,13 +210,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "pagetest.OZPageBeveragesTest"
+    "value" : "pagetest.OZStoreSportProductTest"
   }, {
     "name" : "host",
-    "value" : "fv-az931-323"
+    "value" : "fv-az553-854"
   }, {
     "name" : "thread",
-    "value" : "6560@fv-az931-323.main(1)"
+    "value" : "4300@fv-az553-854.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -225,7 +225,7 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Finding coffee"
+    "value" : "Finding dallies"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -243,6 +243,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a4ffff751b7f35b.json",
+  "source" : "aea2f61be17cce87.json",
   "parameterValues" : [ ]
 }

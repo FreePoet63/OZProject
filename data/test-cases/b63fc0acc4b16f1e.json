@@ -1,12 +1,12 @@
 {
-  "uid" : "1db60c2006f6f4df",
+  "uid" : "b63fc0acc4b16f1e",
   "name" : "searchShampooProductTest",
   "fullName" : "pagetest.OZPageWomanProductsTest.searchShampooProductTest",
   "historyId" : "e1f10af759000eaa0f8ce242204152b4",
   "time" : {
-    "start" : 1680961707190,
-    "stop" : 1680961712499,
-    "duration" : 5309
+    "start" : 1680962334741,
+    "stop" : 1680962339458,
+    "duration" : 4717
   },
   "description" : "Selecting shampoo from the list of products",
   "descriptionHtml" : "<p>Selecting shampoo from the list of products</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "startDriver",
     "time" : {
-      "start" : 1680961701940,
-      "stop" : 1680961707186,
-      "duration" : 5246
+      "start" : 1680962329251,
+      "stop" : 1680962334736,
+      "duration" : 5485
     },
     "description" : "",
     "status" : "passed",
@@ -36,17 +36,17 @@
     "steps" : [ {
       "name" : "searchShampooProductTest",
       "time" : {
-        "start" : 1680961707191,
-        "stop" : 1680961712499,
-        "duration" : 5308
+        "start" : 1680962334742,
+        "stop" : 1680962339458,
+        "duration" : 4716
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "moveToElement",
         "time" : {
-          "start" : 1680961707191,
-          "stop" : 1680961707379,
-          "duration" : 188
+          "start" : 1680962334742,
+          "stop" : 1680962334938,
+          "duration" : 196
         },
         "status" : "passed",
         "steps" : [ ],
@@ -62,9 +62,9 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961707379,
-          "stop" : 1680961710067,
-          "duration" : 2688
+          "start" : 1680962334940,
+          "stop" : 1680962337467,
+          "duration" : 2527
         },
         "status" : "passed",
         "steps" : [ ],
@@ -80,9 +80,9 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961710067,
-          "stop" : 1680961710214,
-          "duration" : 147
+          "start" : 1680962337467,
+          "stop" : 1680962337537,
+          "duration" : 70
         },
         "status" : "passed",
         "steps" : [ ],
@@ -98,9 +98,9 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961710217,
-          "stop" : 1680961710305,
-          "duration" : 88
+          "start" : 1680962337537,
+          "stop" : 1680962337591,
+          "duration" : 54
         },
         "status" : "passed",
         "steps" : [ ],
@@ -116,9 +116,9 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961710305,
-          "stop" : 1680961710352,
-          "duration" : 47
+          "start" : 1680962337591,
+          "stop" : 1680962337647,
+          "duration" : 56
         },
         "status" : "passed",
         "steps" : [ ],
@@ -134,9 +134,9 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961710352,
-          "stop" : 1680961710399,
-          "duration" : 47
+          "start" : 1680962337647,
+          "stop" : 1680962337708,
+          "duration" : 61
         },
         "status" : "passed",
         "steps" : [ ],
@@ -152,9 +152,9 @@
       }, {
         "name" : "clickButton",
         "time" : {
-          "start" : 1680961710399,
-          "stop" : 1680961711888,
-          "duration" : 1489
+          "start" : 1680962337708,
+          "stop" : 1680962338959,
+          "duration" : 1251
         },
         "status" : "passed",
         "steps" : [ ],
@@ -170,9 +170,9 @@
       }, {
         "name" : "withAssertCollection",
         "time" : {
-          "start" : 1680961711890,
-          "stop" : 1680961712499,
-          "duration" : 609
+          "start" : 1680962338959,
+          "stop" : 1680962339458,
+          "duration" : 499
         },
         "status" : "passed",
         "steps" : [ ],
@@ -203,23 +203,23 @@
   "afterStages" : [ {
     "name" : "closeOz",
     "time" : {
-      "start" : 1680961712501,
-      "stop" : 1680961713249,
-      "duration" : 748
+      "start" : 1680962339460,
+      "stop" : 1680962341136,
+      "duration" : 1676
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "565d0a9a8112577e",
+      "uid" : "3a102ba73099dab6",
       "name" : "Page screenshot",
-      "source" : "565d0a9a8112577e.png",
+      "source" : "3a102ba73099dab6.png",
       "type" : "image/png",
       "size" : 117183
     }, {
-      "uid" : "f0e79205ba0a5b70",
+      "uid" : "5b358044522dbbf5",
       "name" : "LogOZ",
-      "source" : "f0e79205ba0a5b70.txt",
+      "source" : "5b358044522dbbf5.txt",
       "type" : "text/plain",
       "size" : 1589
     } ],
@@ -249,10 +249,10 @@
     "value" : "pagetest.OZPageWomanProductsTest"
   }, {
     "name" : "host",
-    "value" : "fv-az931-323"
+    "value" : "fv-az553-854"
   }, {
     "name" : "thread",
-    "value" : "6560@fv-az931-323.main(1)"
+    "value" : "4300@fv-az553-854.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -279,6 +279,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1db60c2006f6f4df.json",
+  "source" : "b63fc0acc4b16f1e.json",
   "parameterValues" : [ ]
 }

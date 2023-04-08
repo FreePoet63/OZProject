@@ -1,24 +1,24 @@
 {
-  "uid" : "48aaef4e400e2909",
-  "name" : "searchDiapersTest",
-  "fullName" : "pagetest.OZPageKidsAndMomTest.searchDiapersTest",
-  "historyId" : "6d98e3446e2401d70920ffa04500a536",
+  "uid" : "9a8137f48f8fc108",
+  "name" : "itemsCoffee",
+  "fullName" : "pagetest.OZPageBeveragesTest.itemsCoffee",
+  "historyId" : "c58bc72a25b40ba25ce95ac87d759f64",
   "time" : {
-    "start" : 1680961696279,
-    "stop" : 1680961701163,
-    "duration" : 4884
+    "start" : 1680962306798,
+    "stop" : 1680962316535,
+    "duration" : 9737
   },
-  "description" : "Ordering diapers in the online store OZ.BY",
-  "descriptionHtml" : "<p>Ordering diapers in the online store OZ.BY</p>\n",
+  "description" : "Searching for coffee using filters",
+  "descriptionHtml" : "<p>Searching for coffee using filters</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "startDriver",
     "time" : {
-      "start" : 1680961690991,
-      "stop" : 1680961696276,
-      "duration" : 5285
+      "start" : 1680962263208,
+      "stop" : 1680962306749,
+      "duration" : 43541
     },
     "description" : "",
     "status" : "passed",
@@ -31,29 +31,29 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "Ordering diapers in the online store OZ.BY",
+    "description" : "Searching for coffee using filters",
     "status" : "passed",
     "steps" : [ {
-      "name" : "searchDiapersTest",
+      "name" : "itemsCoffee",
       "time" : {
-        "start" : 1680961696279,
-        "stop" : 1680961701163,
-        "duration" : 4884
+        "start" : 1680962306829,
+        "stop" : 1680962316531,
+        "duration" : 9702
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "moveToElement",
         "time" : {
-          "start" : 1680961696280,
-          "stop" : 1680961696505,
-          "duration" : 225
+          "start" : 1680962306860,
+          "stop" : 1680962307210,
+          "duration" : 350
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "value",
-          "value" : "Детям и мамам"
+          "value" : "Продукты, деликатесы"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -62,70 +62,52 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961696505,
-          "stop" : 1680961699131,
-          "duration" : 2626
+          "start" : 1680962307227,
+          "stop" : 1680962311560,
+          "duration" : 4333
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "strg",
-          "value" : "Подгузники"
+          "value" : "Кофе"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
         "stepsCount" : 0,
         "hasContent" : true
       }, {
-        "name" : "searchElementPage",
+        "name" : "elementCollection",
         "time" : {
-          "start" : 1680961699131,
-          "stop" : 1680961699254,
-          "duration" : 123
+          "start" : 1680962311561,
+          "stop" : 1680962311842,
+          "duration" : 281
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
-          "name" : "strg",
-          "value" : "Huggies"
+          "name" : "i",
+          "value" : "2"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
         "stepsCount" : 0,
         "hasContent" : true
       }, {
-        "name" : "searchElementPage",
+        "name" : "elementFilterCollection",
         "time" : {
-          "start" : 1680961699254,
-          "stop" : 1680961699300,
-          "duration" : 46
+          "start" : 1680962311842,
+          "stop" : 1680962312023,
+          "duration" : 181
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
-          "name" : "strg",
-          "value" : "Дышащие"
-        } ],
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0,
-        "stepsCount" : 0,
-        "hasContent" : true
-      }, {
-        "name" : "searchElementPage",
-        "time" : {
-          "start" : 1680961699300,
-          "stop" : 1680961699391,
-          "duration" : 91
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ {
-          "name" : "strg",
-          "value" : "Для девочек"
+          "name" : "i",
+          "value" : "0"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -134,9 +116,9 @@
       }, {
         "name" : "clickButton",
         "time" : {
-          "start" : 1680961699392,
-          "stop" : 1680961700467,
-          "duration" : 1075
+          "start" : 1680962312023,
+          "stop" : 1680962314810,
+          "duration" : 2787
         },
         "status" : "passed",
         "steps" : [ ],
@@ -152,16 +134,16 @@
       }, {
         "name" : "withAssertCollection",
         "time" : {
-          "start" : 1680961700469,
-          "stop" : 1680961701162,
-          "duration" : 693
+          "start" : 1680962314811,
+          "stop" : 1680962316531,
+          "duration" : 1720
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "string",
-          "value" : "Huggies"
+          "value" : "Кофе молотый"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -172,38 +154,38 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 7,
+      "stepsCount" : 6,
       "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 8,
+    "stepsCount" : 7,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "closeOz",
     "time" : {
-      "start" : 1680961701170,
-      "stop" : 1680961701940,
-      "duration" : 770
+      "start" : 1680962316644,
+      "stop" : 1680962317578,
+      "duration" : 934
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "1937f41a1982e701",
+      "uid" : "1d571980ea41afa0",
       "name" : "Page screenshot",
-      "source" : "1937f41a1982e701.png",
+      "source" : "1d571980ea41afa0.png",
       "type" : "image/png",
-      "size" : 260058
+      "size" : 187951
     }, {
-      "uid" : "e3e7c63478071b79",
+      "uid" : "4d63cc50f220483c",
       "name" : "LogOZ",
-      "source" : "e3e7c63478071b79.txt",
+      "source" : "4d63cc50f220483c.txt",
       "type" : "text/plain",
-      "size" : 1415
+      "size" : 1255
     } ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
@@ -213,13 +195,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "pagetest.OZPageKidsAndMomTest"
+    "value" : "pagetest.OZPageBeveragesTest"
   }, {
     "name" : "testClass",
-    "value" : "pagetest.OZPageKidsAndMomTest"
+    "value" : "pagetest.OZPageBeveragesTest"
   }, {
     "name" : "testMethod",
-    "value" : "searchDiapersTest"
+    "value" : "itemsCoffee"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -228,13 +210,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "pagetest.OZPageKidsAndMomTest"
+    "value" : "pagetest.OZPageBeveragesTest"
   }, {
     "name" : "host",
-    "value" : "fv-az931-323"
+    "value" : "fv-az553-854"
   }, {
     "name" : "thread",
-    "value" : "6560@fv-az931-323.main(1)"
+    "value" : "4300@fv-az553-854.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -243,7 +225,7 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Diapers search"
+    "value" : "Finding coffee"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -261,6 +243,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "48aaef4e400e2909.json",
+  "source" : "9a8137f48f8fc108.json",
   "parameterValues" : [ ]
 }

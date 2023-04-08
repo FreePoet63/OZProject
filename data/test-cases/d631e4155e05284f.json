@@ -1,24 +1,24 @@
 {
-  "uid" : "7564cf53b6b6beac",
-  "name" : "itemsSport",
-  "fullName" : "pagetest.OZStoreSportProductTest.itemsSport",
-  "historyId" : "c6711ad4cbe7a0e205ca32e8e764476a",
+  "uid" : "d631e4155e05284f",
+  "name" : "searchDiapersTest",
+  "fullName" : "pagetest.OZPageKidsAndMomTest.searchDiapersTest",
+  "historyId" : "6d98e3446e2401d70920ffa04500a536",
   "time" : {
-    "start" : 1680961728362,
-    "stop" : 1680961732462,
-    "duration" : 4100
+    "start" : 1680962323560,
+    "stop" : 1680962328305,
+    "duration" : 4745
   },
-  "description" : "Choosing balls in the OZ.BY store",
-  "descriptionHtml" : "<p>Choosing balls in the OZ.BY store</p>\n",
+  "description" : "Ordering diapers in the online store OZ.BY",
+  "descriptionHtml" : "<p>Ordering diapers in the online store OZ.BY</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "startDriver",
     "time" : {
-      "start" : 1680961723957,
-      "stop" : 1680961728358,
-      "duration" : 4401
+      "start" : 1680962317578,
+      "stop" : 1680962323556,
+      "duration" : 5978
     },
     "description" : "",
     "status" : "passed",
@@ -31,29 +31,29 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "Choosing balls in the OZ.BY store",
+    "description" : "Ordering diapers in the online store OZ.BY",
     "status" : "passed",
     "steps" : [ {
-      "name" : "itemsSport",
+      "name" : "searchDiapersTest",
       "time" : {
-        "start" : 1680961728362,
-        "stop" : 1680961732462,
-        "duration" : 4100
+        "start" : 1680962323561,
+        "stop" : 1680962328305,
+        "duration" : 4744
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "moveToElement",
         "time" : {
-          "start" : 1680961728362,
-          "stop" : 1680961728520,
-          "duration" : 158
+          "start" : 1680962323561,
+          "stop" : 1680962323769,
+          "duration" : 208
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "value",
-          "value" : "Туризм, отдых, спорт"
+          "value" : "Детям и мамам"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -62,16 +62,16 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961728520,
-          "stop" : 1680961730720,
-          "duration" : 2200
+          "start" : 1680962323769,
+          "stop" : 1680962326089,
+          "duration" : 2320
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "strg",
-          "value" : "Мячи"
+          "value" : "Подгузники"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -80,16 +80,16 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961730720,
-          "stop" : 1680961730822,
-          "duration" : 102
+          "start" : 1680962326089,
+          "stop" : 1680962326176,
+          "duration" : 87
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "strg",
-          "value" : "Футбольный"
+          "value" : "Huggies"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -98,16 +98,34 @@
       }, {
         "name" : "searchElementPage",
         "time" : {
-          "start" : 1680961730822,
-          "stop" : 1680961730865,
-          "duration" : 43
+          "start" : 1680962326176,
+          "stop" : 1680962326222,
+          "duration" : 46
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "strg",
-          "value" : "Машинная сшивка"
+          "value" : "Дышащие"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680962326222,
+          "stop" : 1680962326274,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Для девочек"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -116,9 +134,9 @@
       }, {
         "name" : "clickButton",
         "time" : {
-          "start" : 1680961730865,
-          "stop" : 1680961731979,
-          "duration" : 1114
+          "start" : 1680962326274,
+          "stop" : 1680962327751,
+          "duration" : 1477
         },
         "status" : "passed",
         "steps" : [ ],
@@ -134,16 +152,16 @@
       }, {
         "name" : "withAssertCollection",
         "time" : {
-          "start" : 1680961731980,
-          "stop" : 1680961732462,
-          "duration" : 482
+          "start" : 1680962327753,
+          "stop" : 1680962328304,
+          "duration" : 551
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "string",
-          "value" : "Мяч футбольный"
+          "value" : "Huggies"
         } ],
         "shouldDisplayMessage" : false,
         "attachmentsCount" : 0,
@@ -154,38 +172,38 @@
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
-      "stepsCount" : 6,
+      "stepsCount" : 7,
       "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
-    "stepsCount" : 7,
+    "stepsCount" : 8,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "closeOz",
     "time" : {
-      "start" : 1680961732464,
-      "stop" : 1680961733200,
-      "duration" : 736
+      "start" : 1680962328311,
+      "stop" : 1680962329251,
+      "duration" : 940
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "e0c1400c1b3d2f8a",
+      "uid" : "7fde05e9e758c011",
       "name" : "Page screenshot",
-      "source" : "e0c1400c1b3d2f8a.png",
+      "source" : "7fde05e9e758c011.png",
       "type" : "image/png",
-      "size" : 221767
+      "size" : 260058
     }, {
-      "uid" : "dc5677e89bd1f03e",
+      "uid" : "b5d1f3ddc5be0122",
       "name" : "LogOZ",
-      "source" : "dc5677e89bd1f03e.txt",
+      "source" : "b5d1f3ddc5be0122.txt",
       "type" : "text/plain",
-      "size" : 1241
+      "size" : 1415
     } ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
@@ -195,13 +213,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "pagetest.OZStoreSportProductTest"
+    "value" : "pagetest.OZPageKidsAndMomTest"
   }, {
     "name" : "testClass",
-    "value" : "pagetest.OZStoreSportProductTest"
+    "value" : "pagetest.OZPageKidsAndMomTest"
   }, {
     "name" : "testMethod",
-    "value" : "itemsSport"
+    "value" : "searchDiapersTest"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -210,13 +228,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "pagetest.OZStoreSportProductTest"
+    "value" : "pagetest.OZPageKidsAndMomTest"
   }, {
     "name" : "host",
-    "value" : "fv-az931-323"
+    "value" : "fv-az553-854"
   }, {
     "name" : "thread",
-    "value" : "6560@fv-az931-323.main(1)"
+    "value" : "4300@fv-az553-854.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -225,7 +243,7 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Finding dallies"
+    "value" : "Diapers search"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -243,6 +261,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7564cf53b6b6beac.json",
+  "source" : "d631e4155e05284f.json",
   "parameterValues" : [ ]
 }

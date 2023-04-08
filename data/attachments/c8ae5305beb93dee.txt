@@ -1,0 +1,16 @@
+[INFO ] 2023-04-08 13:59:13.119 [main] AllureLogger - Opening OZ.by Website.
+[INFO ] 2023-04-08 13:59:18.787 [main] AllureAspectJ - BEGIN: itemsSport
+[INFO ] 2023-04-08 13:59:18.787 [main] AllureAspectJ - BEGIN: moveToElement
+[INFO ] 2023-04-08 13:59:18.950 [main] AllureAspectJ - END: moveToElement
+[INFO ] 2023-04-08 13:59:18.951 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 13:59:21.152 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 13:59:21.153 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 13:59:21.231 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 13:59:21.232 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 13:59:21.279 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 13:59:21.280 [main] AllureAspectJ - BEGIN: clickButton
+[INFO ] 2023-04-08 13:59:22.396 [main] AllureAspectJ - END: clickButton
+[INFO ] 2023-04-08 13:59:22.396 [main] AllureAspectJ - BEGIN: withAssertCollection
+[INFO ] 2023-04-08 13:59:22.914 [main] AllureAspectJ - END: withAssertCollection
+[INFO ] 2023-04-08 13:59:22.914 [main] AllureAspectJ - END: itemsSport
+[INFO ] 2023-04-08 13:59:22.916 [main] AllureLogger - Closed Website.

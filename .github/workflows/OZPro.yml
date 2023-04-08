@@ -20,14 +20,10 @@ jobs:
     - name: Generate Allure report
       run: mvn allure:report
     - name: Save Allure report history
-      uses: autostakkert/action-allure-save-history@v1
-      with:
-          report_path: "./target/site/allure-maven-plugin"
+      run: mvn allure:history
     - name: Deploy Allure report
       uses: peaceiris/actions-gh-pages@v3
       with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./target/site/allure-maven-plugin
-
-      

@@ -1,0 +1,18 @@
+[INFO ] 2023-04-08 07:39:58.561 [main] AllureLogger - Opening OZ.by Website.
+[INFO ] 2023-04-08 07:40:03.593 [main] AllureAspectJ - BEGIN: searchDiapersTest
+[INFO ] 2023-04-08 07:40:03.594 [main] AllureAspectJ - BEGIN: moveToElement
+[INFO ] 2023-04-08 07:40:03.751 [main] AllureAspectJ - END: moveToElement
+[INFO ] 2023-04-08 07:40:03.752 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 07:40:06.130 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 07:40:06.131 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 07:40:06.205 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 07:40:06.205 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 07:40:06.248 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 07:40:06.249 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 07:40:06.344 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 07:40:06.345 [main] AllureAspectJ - BEGIN: clickButton
+[INFO ] 2023-04-08 07:40:07.794 [main] AllureAspectJ - END: clickButton
+[INFO ] 2023-04-08 07:40:07.796 [main] AllureAspectJ - BEGIN: withAssertCollection
+[INFO ] 2023-04-08 07:40:08.298 [main] AllureAspectJ - END: withAssertCollection
+[INFO ] 2023-04-08 07:40:08.298 [main] AllureAspectJ - END: searchDiapersTest
+[INFO ] 2023-04-08 07:40:08.305 [main] AllureLogger - Closed Website.

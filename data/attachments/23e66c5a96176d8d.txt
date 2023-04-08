@@ -1,8 +1,0 @@
-[INFO ] 2023-04-08 13:59:01.136 [main] AllureLogger - Opening OZ.by Website.
-[INFO ] 2023-04-08 13:59:07.077 [main] AllureAspectJ - BEGIN: searchCityStore
-[INFO ] 2023-04-08 13:59:07.077 [main] AllureAspectJ - BEGIN: searchElementPage
-[INFO ] 2023-04-08 13:59:10.025 [main] AllureAspectJ - END: searchElementPage
-[INFO ] 2023-04-08 13:59:10.026 [main] AllureAspectJ - BEGIN: searchCities
-[INFO ] 2023-04-08 13:59:12.364 [main] AllureAspectJ - END: searchCities
-[INFO ] 2023-04-08 13:59:12.364 [main] AllureAspectJ - END: searchCityStore
-[INFO ] 2023-04-08 13:59:12.366 [main] AllureLogger - Closed Website.

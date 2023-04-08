@@ -1,0 +1,266 @@
+{
+  "uid" : "ea4c0fe3f0a7e70d",
+  "name" : "searchDiapersTest",
+  "fullName" : "pagetest.OZPageKidsAndMomTest.searchDiapersTest",
+  "historyId" : "6d98e3446e2401d70920ffa04500a536",
+  "time" : {
+    "start" : 1680976269600,
+    "stop" : 1680976274017,
+    "duration" : 4417
+  },
+  "description" : "Ordering diapers in the online store OZ.BY",
+  "descriptionHtml" : "<p>Ordering diapers in the online store OZ.BY</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startDriver",
+    "time" : {
+      "start" : 1680976264392,
+      "stop" : 1680976269591,
+      "duration" : 5199
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Ordering diapers in the online store OZ.BY",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "searchDiapersTest",
+      "time" : {
+        "start" : 1680976269600,
+        "stop" : 1680976274017,
+        "duration" : 4417
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "moveToElement",
+        "time" : {
+          "start" : 1680976269601,
+          "stop" : 1680976269755,
+          "duration" : 154
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "Детям и мамам"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680976269755,
+          "stop" : 1680976271970,
+          "duration" : 2215
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Подгузники"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680976271970,
+          "stop" : 1680976272054,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Huggies"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680976272054,
+          "stop" : 1680976272122,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Дышащие"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680976272122,
+          "stop" : 1680976272186,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Для девочек"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "clickButton",
+        "time" : {
+          "start" : 1680976272186,
+          "stop" : 1680976273408,
+          "duration" : 1222
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "Применить"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "withAssertCollection",
+        "time" : {
+          "start" : 1680976273409,
+          "stop" : 1680976274017,
+          "duration" : 608
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "string",
+          "value" : "Huggies"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "closeOz",
+    "time" : {
+      "start" : 1680976274017,
+      "stop" : 1680976274798,
+      "duration" : 781
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "24a0622513a0dedf",
+      "name" : "Page screenshot",
+      "source" : "24a0622513a0dedf.png",
+      "type" : "image/png",
+      "size" : 260058
+    }, {
+      "uid" : "db003aa9aab2e878",
+      "name" : "LogOZ",
+      "source" : "db003aa9aab2e878.txt",
+      "type" : "text/plain",
+      "size" : 1415
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pagetest.OZPageKidsAndMomTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pagetest.OZPageKidsAndMomTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchDiapersTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pagetest.OZPageKidsAndMomTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az448-417"
+  }, {
+    "name" : "thread",
+    "value" : "1328@fv-az448-417.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Diapers search"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea4c0fe3f0a7e70d.json",
+  "parameterValues" : [ ]
+}

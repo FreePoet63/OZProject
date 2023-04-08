@@ -1,0 +1,98 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "pagetest.OZPageBeveragesTest",
+        "children" : [ {
+          "name" : "itemsCoffee",
+          "uid" : "1dea08d4ed824aa8",
+          "parentUid" : "16d17e25ef49bbfff4917763462373ba",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680976258328,
+            "stop" : 1680976263458,
+            "duration" : 5130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "16d17e25ef49bbfff4917763462373ba"
+      }, {
+        "name" : "pagetest.OZPageKidsAndMomTest",
+        "children" : [ {
+          "name" : "searchDiapersTest",
+          "uid" : "ea4c0fe3f0a7e70d",
+          "parentUid" : "764c5629d390f2d70fdacfe02fffc0c2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680976269600,
+            "stop" : 1680976274017,
+            "duration" : 4417
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "764c5629d390f2d70fdacfe02fffc0c2"
+      }, {
+        "name" : "pagetest.OZPageWomanProductsTest",
+        "children" : [ {
+          "name" : "searchShampooProductTest",
+          "uid" : "7a02717e60c47489",
+          "parentUid" : "239850ed7cace4e649a07192bfabe28d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680976280139,
+            "stop" : 1680976284872,
+            "duration" : 4733
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "239850ed7cace4e649a07192bfabe28d"
+      }, {
+        "name" : "pagetest.OZStoreCityTest",
+        "children" : [ {
+          "name" : "searchCityStore",
+          "uid" : "897f66cd03689672",
+          "parentUid" : "ce3c73347be1a77a00d3237bf2470cb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680976292265,
+            "stop" : 1680976298003,
+            "duration" : 5738
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ce3c73347be1a77a00d3237bf2470cb8"
+      }, {
+        "name" : "pagetest.OZStoreSportProductTest",
+        "children" : [ {
+          "name" : "itemsSport",
+          "uid" : "254fcfdb90cd04c5",
+          "parentUid" : "fc418244d6798ff10f344a92b94ce6c8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1680976303106,
+            "stop" : 1680976307141,
+            "duration" : 4035
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fc418244d6798ff10f344a92b94ce6c8"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ]
+}

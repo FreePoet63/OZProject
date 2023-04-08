@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "fv-az448-417",
+    "children" : [ {
+      "name" : "1328@fv-az448-417.main(1)",
+      "children" : [ {
+        "name" : "searchShampooProductTest",
+        "uid" : "7a02717e60c47489",
+        "parentUid" : "41af6cff85b88aa289353fa1b8017d2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680976280139,
+          "stop" : 1680976284872,
+          "duration" : 4733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchDiapersTest",
+        "uid" : "ea4c0fe3f0a7e70d",
+        "parentUid" : "41af6cff85b88aa289353fa1b8017d2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680976269600,
+          "stop" : 1680976274017,
+          "duration" : 4417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "itemsCoffee",
+        "uid" : "1dea08d4ed824aa8",
+        "parentUid" : "41af6cff85b88aa289353fa1b8017d2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680976258328,
+          "stop" : 1680976263458,
+          "duration" : 5130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "searchCityStore",
+        "uid" : "897f66cd03689672",
+        "parentUid" : "41af6cff85b88aa289353fa1b8017d2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680976292265,
+          "stop" : 1680976298003,
+          "duration" : 5738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "itemsSport",
+        "uid" : "254fcfdb90cd04c5",
+        "parentUid" : "41af6cff85b88aa289353fa1b8017d2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680976303106,
+          "stop" : 1680976307141,
+          "duration" : 4035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41af6cff85b88aa289353fa1b8017d2e"
+    } ],
+    "uid" : "68c12c17200c9640b81a6c65e1062994"
+  } ]
+}

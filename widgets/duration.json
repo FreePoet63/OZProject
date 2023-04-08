@@ -1,0 +1,51 @@
+[ {
+  "uid" : "7a02717e60c47489",
+  "name" : "searchShampooProductTest",
+  "time" : {
+    "start" : 1680976280139,
+    "stop" : 1680976284872,
+    "duration" : 4733
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ea4c0fe3f0a7e70d",
+  "name" : "searchDiapersTest",
+  "time" : {
+    "start" : 1680976269600,
+    "stop" : 1680976274017,
+    "duration" : 4417
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1dea08d4ed824aa8",
+  "name" : "itemsCoffee",
+  "time" : {
+    "start" : 1680976258328,
+    "stop" : 1680976263458,
+    "duration" : 5130
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "897f66cd03689672",
+  "name" : "searchCityStore",
+  "time" : {
+    "start" : 1680976292265,
+    "stop" : 1680976298003,
+    "duration" : 5738
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "254fcfdb90cd04c5",
+  "name" : "itemsSport",
+  "time" : {
+    "start" : 1680976303106,
+    "stop" : 1680976307141,
+    "duration" : 4035
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

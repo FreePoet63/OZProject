@@ -1,0 +1,90 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Finding coffee",
+    "children" : [ {
+      "name" : "itemsCoffee",
+      "uid" : "a4ffff751b7f35b",
+      "parentUid" : "8b60faa5d38e46921fa12ee54741ea58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680961682240,
+        "stop" : 1680961690044,
+        "duration" : 7804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8b60faa5d38e46921fa12ee54741ea58"
+  }, {
+    "name" : "Diapers search",
+    "children" : [ {
+      "name" : "searchDiapersTest",
+      "uid" : "48aaef4e400e2909",
+      "parentUid" : "949cba2542423b485ad979bc7a8f83af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680961696279,
+        "stop" : 1680961701163,
+        "duration" : 4884
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "949cba2542423b485ad979bc7a8f83af"
+  }, {
+    "name" : "Search for shampoo",
+    "children" : [ {
+      "name" : "searchShampooProductTest",
+      "uid" : "1db60c2006f6f4df",
+      "parentUid" : "578362c6bfdcb7634164a40b2d3ab3ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680961707190,
+        "stop" : 1680961712499,
+        "duration" : 5309
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "578362c6bfdcb7634164a40b2d3ab3ce"
+  }, {
+    "name" : "Search for Cities",
+    "children" : [ {
+      "name" : "searchCityStore",
+      "uid" : "2d924ae12b993ee3",
+      "parentUid" : "f1fb0b4b4e8013348fa1db5d211b18c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680961718452,
+        "stop" : 1680961723160,
+        "duration" : 4708
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f1fb0b4b4e8013348fa1db5d211b18c3"
+  }, {
+    "name" : "Finding dallies",
+    "children" : [ {
+      "name" : "itemsSport",
+      "uid" : "7564cf53b6b6beac",
+      "parentUid" : "3a253f48b13423d749c84b59bbe745b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1680961728362,
+        "stop" : 1680961732462,
+        "duration" : 4100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3a253f48b13423d749c84b59bbe745b0"
+  } ]
+}

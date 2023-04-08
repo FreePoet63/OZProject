@@ -1,0 +1,248 @@
+{
+  "uid" : "a4ffff751b7f35b",
+  "name" : "itemsCoffee",
+  "fullName" : "pagetest.OZPageBeveragesTest.itemsCoffee",
+  "historyId" : "c58bc72a25b40ba25ce95ac87d759f64",
+  "time" : {
+    "start" : 1680961682240,
+    "stop" : 1680961690044,
+    "duration" : 7804
+  },
+  "description" : "Searching for coffee using filters",
+  "descriptionHtml" : "<p>Searching for coffee using filters</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startDriver",
+    "time" : {
+      "start" : 1680961605804,
+      "stop" : 1680961682149,
+      "duration" : 76345
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Searching for coffee using filters",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "itemsCoffee",
+      "time" : {
+        "start" : 1680961682271,
+        "stop" : 1680961690041,
+        "duration" : 7770
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "moveToElement",
+        "time" : {
+          "start" : 1680961682334,
+          "stop" : 1680961683016,
+          "duration" : 682
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "Продукты, деликатесы"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961683036,
+          "stop" : 1680961686558,
+          "duration" : 3522
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Кофе"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "elementCollection",
+        "time" : {
+          "start" : 1680961686559,
+          "stop" : 1680961687574,
+          "duration" : 1015
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "i",
+          "value" : "2"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "elementFilterCollection",
+        "time" : {
+          "start" : 1680961687574,
+          "stop" : 1680961687666,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "i",
+          "value" : "0"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "clickButton",
+        "time" : {
+          "start" : 1680961687666,
+          "stop" : 1680961688933,
+          "duration" : 1267
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "Применить"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "withAssertCollection",
+        "time" : {
+          "start" : 1680961688934,
+          "stop" : 1680961690041,
+          "duration" : 1107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "string",
+          "value" : "Кофе молотый"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 6,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeOz",
+    "time" : {
+      "start" : 1680961690146,
+      "stop" : 1680961690991,
+      "duration" : 845
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6a30e87d7fa2255a",
+      "name" : "Page screenshot",
+      "source" : "6a30e87d7fa2255a.png",
+      "type" : "image/png",
+      "size" : 189275
+    }, {
+      "uid" : "6c18ce09c64ebf99",
+      "name" : "LogOZ",
+      "source" : "6c18ce09c64ebf99.txt",
+      "type" : "text/plain",
+      "size" : 1255
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pagetest.OZPageBeveragesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pagetest.OZPageBeveragesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "itemsCoffee"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pagetest.OZPageBeveragesTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az931-323"
+  }, {
+    "name" : "thread",
+    "value" : "6560@fv-az931-323.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Finding coffee"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4ffff751b7f35b.json",
+  "parameterValues" : [ ]
+}

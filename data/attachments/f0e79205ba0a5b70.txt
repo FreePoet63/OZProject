@@ -1,0 +1,20 @@
+[INFO ] 2023-04-08 13:48:21.940 [main] AllureLogger - Opening OZ.by Website.
+[INFO ] 2023-04-08 13:48:27.191 [main] AllureAspectJ - BEGIN: searchShampooProductTest
+[INFO ] 2023-04-08 13:48:27.191 [main] AllureAspectJ - BEGIN: moveToElement
+[INFO ] 2023-04-08 13:48:27.378 [main] AllureAspectJ - END: moveToElement
+[INFO ] 2023-04-08 13:48:27.379 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 13:48:30.066 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 13:48:30.067 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 13:48:30.214 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 13:48:30.217 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 13:48:30.304 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 13:48:30.305 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 13:48:30.352 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 13:48:30.352 [main] AllureAspectJ - BEGIN: searchElementPage
+[INFO ] 2023-04-08 13:48:30.399 [main] AllureAspectJ - END: searchElementPage
+[INFO ] 2023-04-08 13:48:30.399 [main] AllureAspectJ - BEGIN: clickButton
+[INFO ] 2023-04-08 13:48:31.888 [main] AllureAspectJ - END: clickButton
+[INFO ] 2023-04-08 13:48:31.890 [main] AllureAspectJ - BEGIN: withAssertCollection
+[INFO ] 2023-04-08 13:48:32.499 [main] AllureAspectJ - END: withAssertCollection
+[INFO ] 2023-04-08 13:48:32.499 [main] AllureAspectJ - END: searchShampooProductTest
+[INFO ] 2023-04-08 13:48:32.501 [main] AllureLogger - Closed Website.

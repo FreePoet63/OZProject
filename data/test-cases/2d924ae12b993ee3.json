@@ -1,0 +1,173 @@
+{
+  "uid" : "2d924ae12b993ee3",
+  "name" : "searchCityStore",
+  "fullName" : "pagetest.OZStoreCityTest.searchCityStore",
+  "historyId" : "fce164fe327eff9149a9ecbde48a3297",
+  "time" : {
+    "start" : 1680961718452,
+    "stop" : 1680961723160,
+    "duration" : 4708
+  },
+  "description" : "Search for stores by city",
+  "descriptionHtml" : "<p>Search for stores by city</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startDriver",
+    "time" : {
+      "start" : 1680961713249,
+      "stop" : 1680961718450,
+      "duration" : 5201
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Search for stores by city",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "searchCityStore",
+      "time" : {
+        "start" : 1680961718452,
+        "stop" : 1680961723159,
+        "duration" : 4707
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961718453,
+          "stop" : 1680961721128,
+          "duration" : 2675
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Магазины OZ"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchCities",
+        "time" : {
+          "start" : 1680961721128,
+          "stop" : 1680961723158,
+          "duration" : 2030
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeOz",
+    "time" : {
+      "start" : 1680961723161,
+      "stop" : 1680961723957,
+      "duration" : 796
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d69f8c75370b11ff",
+      "name" : "Page screenshot",
+      "source" : "d69f8c75370b11ff.png",
+      "type" : "image/png",
+      "size" : 289294
+    }, {
+      "uid" : "bf476731ecfaf744",
+      "name" : "LogOZ",
+      "source" : "bf476731ecfaf744.txt",
+      "type" : "text/plain",
+      "size" : 615
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pagetest.OZStoreCityTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pagetest.OZStoreCityTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchCityStore"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pagetest.OZStoreCityTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az931-323"
+  }, {
+    "name" : "thread",
+    "value" : "6560@fv-az931-323.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Search for Cities"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d924ae12b993ee3.json",
+  "parameterValues" : [ ]
+}

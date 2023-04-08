@@ -1,0 +1,284 @@
+{
+  "uid" : "1db60c2006f6f4df",
+  "name" : "searchShampooProductTest",
+  "fullName" : "pagetest.OZPageWomanProductsTest.searchShampooProductTest",
+  "historyId" : "e1f10af759000eaa0f8ce242204152b4",
+  "time" : {
+    "start" : 1680961707190,
+    "stop" : 1680961712499,
+    "duration" : 5309
+  },
+  "description" : "Selecting shampoo from the list of products",
+  "descriptionHtml" : "<p>Selecting shampoo from the list of products</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startDriver",
+    "time" : {
+      "start" : 1680961701940,
+      "stop" : 1680961707186,
+      "duration" : 5246
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Selecting shampoo from the list of products",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "searchShampooProductTest",
+      "time" : {
+        "start" : 1680961707191,
+        "stop" : 1680961712499,
+        "duration" : 5308
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "moveToElement",
+        "time" : {
+          "start" : 1680961707191,
+          "stop" : 1680961707379,
+          "duration" : 188
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "Косметика, парфюмерия"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961707379,
+          "stop" : 1680961710067,
+          "duration" : 2688
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Шампуни"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961710067,
+          "stop" : 1680961710214,
+          "duration" : 147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Kapous"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961710217,
+          "stop" : 1680961710305,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Жидкий"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961710305,
+          "stop" : 1680961710352,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Для всех типов"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961710352,
+          "stop" : 1680961710399,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Восстановление"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "clickButton",
+        "time" : {
+          "start" : 1680961710399,
+          "stop" : 1680961711888,
+          "duration" : 1489
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "Применить"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "withAssertCollection",
+        "time" : {
+          "start" : 1680961711890,
+          "stop" : 1680961712499,
+          "duration" : 609
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "string",
+          "value" : "Kapous"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 8,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeOz",
+    "time" : {
+      "start" : 1680961712501,
+      "stop" : 1680961713249,
+      "duration" : 748
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "565d0a9a8112577e",
+      "name" : "Page screenshot",
+      "source" : "565d0a9a8112577e.png",
+      "type" : "image/png",
+      "size" : 117183
+    }, {
+      "uid" : "f0e79205ba0a5b70",
+      "name" : "LogOZ",
+      "source" : "f0e79205ba0a5b70.txt",
+      "type" : "text/plain",
+      "size" : 1589
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pagetest.OZPageWomanProductsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pagetest.OZPageWomanProductsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchShampooProductTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pagetest.OZPageWomanProductsTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az931-323"
+  }, {
+    "name" : "thread",
+    "value" : "6560@fv-az931-323.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Search for shampoo"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1db60c2006f6f4df.json",
+  "parameterValues" : [ ]
+}

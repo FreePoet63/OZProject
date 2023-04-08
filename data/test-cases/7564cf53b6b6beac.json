@@ -1,0 +1,248 @@
+{
+  "uid" : "7564cf53b6b6beac",
+  "name" : "itemsSport",
+  "fullName" : "pagetest.OZStoreSportProductTest.itemsSport",
+  "historyId" : "c6711ad4cbe7a0e205ca32e8e764476a",
+  "time" : {
+    "start" : 1680961728362,
+    "stop" : 1680961732462,
+    "duration" : 4100
+  },
+  "description" : "Choosing balls in the OZ.BY store",
+  "descriptionHtml" : "<p>Choosing balls in the OZ.BY store</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startDriver",
+    "time" : {
+      "start" : 1680961723957,
+      "stop" : 1680961728358,
+      "duration" : 4401
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Choosing balls in the OZ.BY store",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "itemsSport",
+      "time" : {
+        "start" : 1680961728362,
+        "stop" : 1680961732462,
+        "duration" : 4100
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "moveToElement",
+        "time" : {
+          "start" : 1680961728362,
+          "stop" : 1680961728520,
+          "duration" : 158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "value",
+          "value" : "Туризм, отдых, спорт"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961728520,
+          "stop" : 1680961730720,
+          "duration" : 2200
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Мячи"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961730720,
+          "stop" : 1680961730822,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Футбольный"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "searchElementPage",
+        "time" : {
+          "start" : 1680961730822,
+          "stop" : 1680961730865,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "strg",
+          "value" : "Машинная сшивка"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "clickButton",
+        "time" : {
+          "start" : 1680961730865,
+          "stop" : 1680961731979,
+          "duration" : 1114
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "Применить"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "withAssertCollection",
+        "time" : {
+          "start" : 1680961731980,
+          "stop" : 1680961732462,
+          "duration" : 482
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "string",
+          "value" : "Мяч футбольный"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 6,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeOz",
+    "time" : {
+      "start" : 1680961732464,
+      "stop" : 1680961733200,
+      "duration" : 736
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0c1400c1b3d2f8a",
+      "name" : "Page screenshot",
+      "source" : "e0c1400c1b3d2f8a.png",
+      "type" : "image/png",
+      "size" : 221767
+    }, {
+      "uid" : "dc5677e89bd1f03e",
+      "name" : "LogOZ",
+      "source" : "dc5677e89bd1f03e.txt",
+      "type" : "text/plain",
+      "size" : 1241
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pagetest.OZStoreSportProductTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pagetest.OZStoreSportProductTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "itemsSport"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pagetest.OZStoreSportProductTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az931-323"
+  }, {
+    "name" : "thread",
+    "value" : "6560@fv-az931-323.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Finding dallies"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7564cf53b6b6beac.json",
+  "parameterValues" : [ ]
+}

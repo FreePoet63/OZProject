@@ -19,14 +19,14 @@ jobs:
       run: mvn -Dbrowser=chrome -Denvironment=dev clean test
     - name: Generate Allure report
       run: mvn allure:report
-    - name: Save Allure report history
-      uses: frankjia/travis-allure@v1.1.0
-      with:
-       report-path: "./target/site/allure-maven-plugin"
-       history-dir: "./allure-results"
     - name: Deploy Allure report
       uses: peaceiris/actions-gh-pages@v3
       with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./target/site/allure-maven-plugin
+    - name: Save Allure results
+      uses: actions/upload-artifact@v2
+      with:
+             name: Allure Results
+             path: target/allure-results

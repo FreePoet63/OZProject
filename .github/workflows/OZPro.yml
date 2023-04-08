@@ -1,4 +1,4 @@
-name: OZProject Java CI with Maven
+name: OZProject Java CI with Maven and Allure
 
 on:
   push:

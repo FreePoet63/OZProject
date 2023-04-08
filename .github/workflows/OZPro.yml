@@ -20,9 +20,10 @@ jobs:
     - name: Generate Allure report
       run: mvn allure:report
     - name: Save Allure report history
-      uses: autostakkert/action-allure-save-history@v1
+      uses: frankjia/travis-allure@v1.1.0
       with:
-          report_path: "./target/site/allure-maven-plugin"
+       report-path: "./target/site/allure-maven-plugin"
+       history-dir: "./allure-results"
     - name: Deploy Allure report
       uses: peaceiris/actions-gh-pages@v3
       with:

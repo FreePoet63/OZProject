@@ -20,7 +20,7 @@ jobs:
     - name: Generate Allure report
       run: mvn allure:report
     - name: Save Allure report history
-      uses: "rudderlabs/action-allure-save-history@v1"
+      uses: autostakkert/action-allure-save-history@v1
       with:
           report_path: "./target/site/allure-maven-plugin"
     - name: Deploy Allure report
